@@ -1,0 +1,12 @@
+create a stored procedure and user-defined function
+You need to create a stored procedure and user-defined function to perform common library operations
+Tables:
+Books
+Authors
+BookCopies
+Users
+Borrowing
+Create a stored procedure to checkout a book for rent which should Accept member id and copy Id as parameter and it should update the status of book copy available status
+Create another stored procedure for returning the book and pass member id and copy id as parameter it should update the return date
+Create a function to accept the author id as input and get the number of books by the author
+Create a function to get the list overdue borrowings that has been 1 week from borrow date
